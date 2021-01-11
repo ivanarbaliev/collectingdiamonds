@@ -1,0 +1,18 @@
+.login-box{
+    max-width:700px;
+    float:none;
+    margin:220px auto;
+}
+.login-left{
+    background:rgba(211, 211, 211, 0.5);
+    padding:30px;
+}
+
+.login-right{
+    background:#FFF;
+    padding:30px;
+}
+
+.form-control  {
+    background-color: transparent !important;
+}
