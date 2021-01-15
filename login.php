@@ -3,12 +3,12 @@
 
 session_start();
 
-$host = "localhost";
-$user = "root";
-$password = "";
+$host = "eu-cdbr-west-03.cleardb.net";
+$user = "bfbcb16773a6f5";
+$password = "8e2b1fc0";
 $db = "logindetails";
 
-$mysqli = new mysqli("localhost", "root", "", "logindetails");
+$mysqli = new mysqli("eu-cdbr-west-03.cleardb.net", "bfbcb16773a6f5", "8e2b1fc0", "logindetails");
 
 $name = $_POST['user'];
 $pass = $_POST['password'];
